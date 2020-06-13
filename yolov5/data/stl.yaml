@@ -1,0 +1,9 @@
+# train and val datasets (image directory or *.txt file with image paths)
+train: ../stl/images/
+val: ../stl/images/
+
+# number of classes
+nc: 2
+
+# class names
+names: ["1.stl", "2.stl"]
