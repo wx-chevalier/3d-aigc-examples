@@ -32,11 +32,7 @@
 
 # Introduction
 
-[![Product Name Screen Shot](https://s2.ax1x.com/2020/01/06/lr2YdJ.md.png)](https://example.com)
-
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`AI-Kits`, `3d-model-detector`, `twitter_handle`, `email`
+Open in [Colab](https://colab.research.google.com/drive/1EfX1S0cqDVmMwITAGmj6WiLAyEgn7bF2?usp=sharing)
 
 ## Nav | 导航
 

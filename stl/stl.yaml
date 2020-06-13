@@ -3,7 +3,7 @@ train: ../stl/images/
 val: ../stl/images/
 
 # number of classes
-nc: 2
+nc: 7
 
 # class names
-names: ["1.stl", "2.stl"]
+names: ["1.stl", "2.stl", "3.stl", "4.stl", "5.stl", "6.stl", "7.stl"]
