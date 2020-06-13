@@ -12,9 +12,9 @@ for i in *.stl; do
       for z in 0 45 90
       do
         /Applications/OpenSCAD.app/Contents/MacOS/OpenSCAD -o images/$b.$x\_$y\_$z.png --viewall --render --colorscheme=Nature --camera=0,0,0,$x,$y,$z,20 --autocenter --imgsize=640,640 $T
-        # echo "$INDEX 0.5 0.5 1 1" > labels/$b.$x\_$y\_$z.txt
-        convert images/$b.$x\_$y\_$z.png images/$b.$x\_$y\_$z.jpg
-        rm images/$b.$x\_$y\_$z.png
+        echo "$INDEX 0.5 0.5 1 1" > labels/$b.$x\_$y\_$z.txt
+        # convert images/$b.$x\_$y\_$z.png images/$b.$x\_$y\_$z.jpg
+        # rm images/$b.$x\_$y\_$z.png
       done
     done
   done
